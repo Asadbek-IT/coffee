@@ -1,0 +1,796 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: auto;
+    background-color: #F6F6F9;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.links__item{
+    color: #83888F;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.planing{
+    padding: 50px;
+    margin: auto;
+}
+
+.pln__content{
+    position: absolute;
+    top: 300px;
+    padding: 50px;
+}
+
+.planing__text{
+    width: 500px;
+}
+
+.pln__text{
+    /* Great coffee made si */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+
+    color: #FEFCF7;
+    
+}
+
+.planing__title{
+    margin: 25px;
+    width: 500px;
+}
+
+.pln__title{
+    /* Start your mornings */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #FEFCF7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+
+.pln__btn{
+    /* Group 3 */
+
+    width: 217px;
+    height: 56px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0E8784;
+
+    /* Create your plan */
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+}
+
+.menu{
+    width: 1150px;
+    margin: auto;
+    padding: 50px;
+}
+
+.menu__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.menu__maintext{
+    /* Group 13 */
+
+    position: absolute;
+    left: 500px;
+    top: 775px;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.menu__text{
+    margin: 25px auto;
+    /* Gran Espresso */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    
+    color: #333D4B;
+
+}
+
+.menu__title{
+    width: 255px;
+
+    /* Light and flavorful */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+
+    color: #333D4B;
+
+}
+
+.addhimself{
+    margin: 150px auto;
+    padding: 0;
+    width: 1300px;
+    position: relative;
+}
+
+.add__main{
+    background-color: #333D4B;
+    width: 1280px;
+    height: 600px;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.add__text{
+    /* Why choose us? */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+}
+
+.add__title{
+    /* A large part of our */
+
+    padding: 25px;
+    margin: auto;
+    width: 580px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+
+.cards__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    left: 85px;
+    top: 350px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #0E8784;
+    width: 350px;
+    height: 380px;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.card__pic{
+    margin: auto;
+    
+}
+
+.card__text{
+    /* Best quality */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+
+}
+
+.card__title{
+    /* Discover an endless */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+
+    color: #FEFCF7;
+    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howitworks{
+    margin: 300px auto;
+    width: 1050px;
+    height: 570px;
+}
+
+.hiw__main-text{
+    /* How it works */  
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888F;
+}
+
+
+.hr__box{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.Path{
+    width: 380px;
+}
+
+.hiw__box2{
+    display: flex;
+    align-items: center;
+    gap: 175px;
+}
+
+.item{
+    width: 285px;
+}
+
+.item__main-text{
+    /* 01 */
+    
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+    
+    color: #FDD6BA;
+    
+}
+
+.item__main-title{
+    /* Receive and enjoy! */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: #333D4B;
+
+}
+
+.item__main-subtitle{
+    /* We ship your package */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333D4B;
+
+}
+
+.main__btn{
+    position: relative;
+}
+
+.howitworks__btn{
+    position: absolute;
+    bottom: -150px;
+}   
+
+.hiw__btn{
+    /* Group 3 */
+
+    width: 217px;
+    height: 56px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0E8784;
+
+    /* Create your plan */
+
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+
+    color: #FEFCF7;
+
+}
+
+.footer{
+    /* Mask */
+
+    margin: auto;
+    width: 1280px;
+    height: 120px;
+    padding: 50px;
+    background: #2C343E;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    width: 236px;
+    height: 26px;
+}
+
+.footer__right{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer__left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.commitment{
+    width: 1110px;
+    height: 520px;
+    margin: 100px auto;
+}
+
+.com__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.com__pic{
+    /* Bitmap */
+
+    width: 445px;
+    height: 520px;
+
+}
+
+.com__text{
+    /* Our commitment */
+
+    margin: 50px auto;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #333D4B;
+
+}
+
+.com__title{
+    /* We’re built on a sim */
+
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333D4B;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+
+.addhimself2{
+    margin: 200px auto;
+    padding: 0;
+    width: 1300px;
+    position: relative;
+}
+
+.add__main2{
+    background-color: #333D4B;
+    width: 1280px;
+    height: 474px;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.add__text-box{
+    width: 540px;
+    height: 210px;
+}
+
+.cards__box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    left: 750px;
+    top: -100px;
+}
+
+.item__main-subtitle2{
+    /* We ship your package */
+    
+    margin: 25px;
+    width: 75px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333D4B;
+
+}
+
+.howitworks2{
+    margin: 100px auto;
+    width: 1050px;
+}
+
+.hiw__main-text2{
+    /* How it works */  
+
+    margin: 70px auto;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888F;
+}
+
+.main__hiw{
+    /* Group 25 */
+
+    width: 1280px;
+    height: 653px;
+
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #333D4B;
+    border-radius: 15px;
+}
+
+.hiw__box3{
+    display: flex;
+    align-items: center;
+    gap: 175px;
+}
+
+.item__main-title2{
+    /* Pick your coffee */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: #FEFCF7;
+
+
+}
+
+.item__main-subtitle3{
+    /* Select from our evol */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #FEFCF7;
+
+
+}
+
+.drinkcoffee{
+    width: 1045px;
+    margin: 100px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__for-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Group 13 */
+
+    width: 730px;
+    height: 48px;
+    margin: 50px;
+}
+
+.item-text{
+    /* How do you drink you */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #83888F;
+
+
+}
+
+.dc__right{
+    margin-bottom: auto;
+}
+
+.dc__item{
+    width: 730px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dc__card{
+    /* Rectangle Copy 4 */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 228px;
+    height: 250px;
+
+    background: #F4F1EB;
+    border-radius: 8px;
+
+}
+
+.dc__card2{
+    /* Rectangle Copy 4 */
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 228px;
+    height: 250px;
+
+    background-color: #0E8784;
+    border-radius: 8px;
+
+}
+
+.dc__card-text{
+    /* Capsule */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #333D4B;
+
+}
+
+.dc__card-text2{
+    /* Capsule */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: white;
+
+}
+
+.dc__card-title{
+    /* Compatible with Nesp */
+
+    width: 172px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333D4B;
+
+}
+
+.dc__card-title2{
+    /* Compatible with Nesp */
+
+    width: 172px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: white;
+
+}
+
+.end{
+    /* Group 24 */
+
+    width: 730px;
+    height: 208px;
+    background-color: #333D4B;
+
+    padding: 25px;
+    margin: 100px auto
+}
+
+.end__text{
+    /* “I drink my coffee a */
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    width: 100%;
+    color: #FFFFFF;
+
+}
+
+.cyan{
+    color: #0E8784;
+}
+
+.end__title{
+    /* Order Summary */
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.end__btn{
+    position: absolute;
+    left: 560px;
+}
+
+.main__btn2{
+    position: relative;
+}
